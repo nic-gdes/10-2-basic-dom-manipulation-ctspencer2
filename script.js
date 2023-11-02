@@ -16,6 +16,9 @@ let dinoFacts = [
     "Fact 3"
 ]
 
+let h1 = document.querySelector("#page-title");
+h1.textContent = "Hello I am new text";
+
 // 6. Replace the facts on the page with our new array of facts:
 // 6.1 First, use querySelector to create a variable for the list.
 
